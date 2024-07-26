@@ -2,10 +2,10 @@
   "name": "lets-connect",
   "version": "1.0.0",
   "description": "Practicing making social media",
-  "main": "index.js",
   "scripts": {
     "start-rim": "rimraf dist && rimraf .parcel-cache && parcel index.html",
-    "start": "parcel index.html"
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
   },
   "keywords": [
     "react",
